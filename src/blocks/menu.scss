@@ -9,7 +9,11 @@
   box-sizing: border-box;
 
   height: 100%;
-  overflow-y: scroll;
+
+   overflow-y: auto;
+   @include desktop {
+    overflow-y: visible;
+   }
 
   @include padding-top;
 

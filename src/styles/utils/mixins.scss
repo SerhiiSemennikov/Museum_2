@@ -12,7 +12,7 @@
 
 @mixin container() {
   padding-inline: 20px;
-  margin: 0 auto;
+  margin: 0;
 
   @include tablet {
     padding-inline: 39px;

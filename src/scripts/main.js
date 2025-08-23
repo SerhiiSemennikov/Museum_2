@@ -17,6 +17,7 @@ function openMenu() {
   closeMenuButton.style.opacity = '1';
   menu.classList.add('menu--open');
   body.style.overflowY = 'hidden';
+  // page.style.paddingRight = 0;
   page.style.paddingRight = getScrollbarWidth() + 'px';
 }
 
