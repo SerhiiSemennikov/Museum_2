@@ -35,8 +35,9 @@
   }
   &__photo2 {
     object-fit: cover;
-    width: 90%;
+    // width: 90%;
     height: 100%;
+
     // object-position: 0 -50px;
 
     @include hover(transform, scale(1.05));
