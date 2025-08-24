@@ -16,7 +16,7 @@
   }
 
   &__photo {
-    object-position: left;
+    object-position: center;
   }
 
   &__name {
@@ -42,6 +42,11 @@
   }
 
   &__button {
+    //width: 280px;
+    // @media (min-width: 740px) {
+    //  width: 330px;
+    // }
+
     @include desktop {
       grid-column: span 3;
     }

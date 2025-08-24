@@ -29,15 +29,15 @@
     width: 100%;
     height: 100%;
 
-    // object-position: top;
+     //object-position: bottom;
 
     @include hover(transform, scale(1.05));
   }
   &__photo2 {
     object-fit: cover;
-    width: 100%;
+    width: 90%;
     height: 100%;
-
+ object-position: 0px -50px;
     @include hover(transform, scale(1.05));
 
     @include desktop {

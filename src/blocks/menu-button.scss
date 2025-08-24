@@ -14,7 +14,6 @@
   cursor: pointer;
 
   &__line {
-
     position: absolute;
     background-color: $c-white;
     height: 2px;
@@ -25,7 +24,6 @@
     &--top {
       top: 0.5;
       left: 0;
-
     }
 
     &--center {
